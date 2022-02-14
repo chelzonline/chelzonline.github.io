@@ -4,27 +4,28 @@ html {
   font-family:"Ubuntu";
 }
 h1 {
-  font-size:60px;
+  font-size: 4vw;
   font-weight:700;
 }
-
+h2 {
+  font-size: 3vw;
+}
 body {
   background-color: black;
   color: #FF33E1;
   text-align: center;
-  font-size: 30px;
+  font-size: 3vw;
   margin: 0;
 }
-
-.video_title {
-  font-size: 40px;
+p {
+  font-size: 2.5vw;
 }
 
 
 /* links */
 a:link {
   color: #57f807;
-  font-size: 30px;
+  font-size: 2vw;
   text-decoration: none;
 }
 a:visited {
@@ -43,7 +44,7 @@ a:active {
 
 /* nav code */
 .site_nav {
-  width: 30%;
+  width: 40%;
   padding: 20px;
 }
 .site_nav li {
@@ -60,21 +61,13 @@ a:active {
 .site_nav a {
   display: block;
   text-align: center;
+  font-size: 2vw;
   padding: 15px;
   text-decoration: none;
 }
 
-/*
-.meme img {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  background: no-repeat;
-}
-.meme img:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=30);
-}
-*/
+
+
 
 /*
 
